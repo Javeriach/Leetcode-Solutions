@@ -4,11 +4,15 @@ public:
         queue<int> radient;
         queue<int> dir;
 
+    
         // Populate the queues with the indices of the senators
         for(int i = 0; i < senate.length(); i++) {
             if(senate[i] == 'R') radient.push(i);
             else dir.push(i);
         }
+
+        if(dir.empty() && !radient.empty()) return "Radiant";
+        if(!dir.empty() && radient.empty()) return "Dire";
 
         // Loop until one of the queues is empty
         while(!radient.empty() && !dir.empty()) {
@@ -25,10 +29,11 @@ public:
                 dir.push(curDirIndex + senate.length());
                 radient.pop();
             }
+
         }
 
         // If Radiant queue still has senators left, Radiant wins
-        if(!radient.empty()) return "Radiant";
-        else return "Dire";
+       if(radient.empty()) return "Dire";
+        else return "Radiant";
     }
 };
