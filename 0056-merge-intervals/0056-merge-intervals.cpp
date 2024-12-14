@@ -6,6 +6,15 @@ public:
         // Step 1: Sort the intervals based on the start times
         sort(intervals.begin(), intervals.end());
 
+
+            // Logic:
+            /* add element to the result array then we move further =>
+            next we have only two situations  
+            1-either the next interval start will be greater than the interval we add to merged araeay-if so then we 
+            will also add this interval as it not overlapp 
+            2-in other case it will overlap so we update the ends  of the recently add interval as the current interval is  overlapping with recently added interval
+            */
+            
         vector<vector<int>> merged;
 
         // Step 2: Merge intervals
