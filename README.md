@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0015-3sum](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0056-merge-intervals) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2195-time-needed-to-buy-tickets) |
 ## Queue
@@ -87,5 +88,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0056-merge-intervals) |
+## Two Pointers
+|  |
+| ------- |
+| [0015-3sum](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0015-3sum) |
 <!---LeetCode Topics End-->
