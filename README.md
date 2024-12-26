@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0056-merge-intervals) |
 | [0238-product-of-array-except-self](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0238-product-of-array-except-self) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2195-time-needed-to-buy-tickets) |
 ## Queue
 |  |
@@ -25,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0387-first-unique-character-in-a-string](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0387-first-unique-character-in-a-string) |
 ## String
 |  |
@@ -43,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0225-implement-stack-using-queues) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0969-number-of-recent-calls](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0969-number-of-recent-calls) |
 ## Data Stream
 |  |
@@ -59,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0342-power-of-four) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [1013-fibonacci-number](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1013-fibonacci-number) |
 ## Dynamic Programming
 |  |
@@ -99,4 +103,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0238-product-of-array-except-self) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
