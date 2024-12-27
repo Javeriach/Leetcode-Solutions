@@ -1,5 +1,8 @@
 class RandomizedSet {
-    set<int> randomizedSet;
+    vector<int>vec;
+    unordered_map<int,int> mp;
+    int size=0;
+    
 
 public:
     RandomizedSet() {
@@ -7,23 +10,32 @@ public:
     }
     
     bool insert(int val) {
-        if(randomizedSet.find(val) != randomizedSet.end() )
+        if(mp.find(val) != mp.end())
         {
             return false;
         }else
         {
-            randomizedSet.insert(val);
+            
+            vec.push_back(val);
+            mp.insert({val,vec.size()-1});
+            
+          
+          
             return true;
         }
         
     }
     
     bool remove(int val) {
-         if(randomizedSet.find(val) != randomizedSet.end() )
+         if(mp.find(val) != mp.end() )
         {
-            
-            randomizedSet.erase(val);
-          
+            int index=mp[val];
+            vec[index]=vec.back();
+            vec.pop_back();
+
+            auto map_target_element=mp.find(val);
+            mp[vec[index]]=map_target_element->second;
+            mp.erase(val);
             return true;
         }else
         {
@@ -34,17 +46,8 @@ public:
     
     int getRandom() {
 
-        int random=rand() % randomizedSet.size();
-        //     int i=0;
-        // for (auto itr : randomizedSet) 
-        // {
-        //       if(i==random) return itr;
-
-        //       i++;
-        // }  
-        auto first = randomizedSet.begin(); // get iterator to 1st element
-        advance(first, random);     // advance by 9
-        return  *first;  
+        int random=rand() % vec.size();
+        return  vec[random];
     }
 };
 
