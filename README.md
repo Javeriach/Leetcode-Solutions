@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0387-first-unique-character-in-a-string](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0387-first-unique-character-in-a-string) |
 | [0649-dota2-senate](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0649-dota2-senate) |
+| [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 ## Counting
 |  |
 | ------- |
@@ -59,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0225-implement-stack-using-queues) |
+| [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 ## Math
 |  |
 | ------- |
