@@ -35,9 +35,7 @@ public:
        for(int i=0; i<s.length();i++)
        {
            longestStr=findPalindrome(i-1,i,s,longestStr);
-        //    cout << longestStr <<endl;
            longestStr=findPalindrome(i-1,i+1,s,longestStr);
-        //    cout << longestStr <<endl;
          
        }
 
