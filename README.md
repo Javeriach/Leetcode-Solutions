@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0189-rotate-array) |
 | [0238-product-of-array-except-self](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0238-product-of-array-except-self) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
+| [0485-max-consecutive-ones](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0485-max-consecutive-ones) |
 | [0560-subarray-sum-equals-k](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2195-time-needed-to-buy-tickets) |
