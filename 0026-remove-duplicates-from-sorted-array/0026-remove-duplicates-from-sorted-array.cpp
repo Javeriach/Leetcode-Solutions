@@ -16,17 +16,6 @@ public:
         }
         
         
-        // int k=0;
-        // for(auto it:map)
-        // {
-        //     // cout << it.second <<endl;
-        //     nums[k]=it.second;
-        //     k++;
-        // }
-
-        // sort(nums.begin(),nums.begin()+map.size());
-       
-        
     return map.size();
 
     }
