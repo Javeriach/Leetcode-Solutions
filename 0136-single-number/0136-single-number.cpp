@@ -1,23 +1,18 @@
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
+        int cnt = 0;
+        unordered_map<int, int> mpp;
 
-    
-        unordered_map<int,int>result={{0,0}};
-        for(int i=0; i<nums.size();i++)
-        {
-            result[nums[i]]+=1;
-            
+        for (int i = 0; i < nums.size(); i++) {
+            mpp[nums[i]]++;
         }
-        
-        for(int i=0; i<nums.size();i++)
-        {
-            if(result[nums[i]] == 1)
-            {
-                return nums[i];
+        for (auto it : mpp) {
+            if (it.second == 1) {
+                cnt = it.first;
+                break;
             }
         }
-
-        return -1;
+        return cnt;
     }
 };
