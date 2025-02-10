@@ -2,6 +2,7 @@ class Solution {
 public:
     int singleNumber(vector<int>& nums) {
 
+    
         unordered_map<int,int>result={{0,0}};
         for(int i=0; i<nums.size();i++)
         {
