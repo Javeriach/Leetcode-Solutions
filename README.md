@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0015-3sum) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0056-merge-intervals](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0056-merge-intervals) |
 | [0136-single-number](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0136-single-number) |
 | [0189-rotate-array](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0189-rotate-array) |
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0005-longest-palindromic-substring) |
 | [0015-3sum](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0015-3sum) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0189-rotate-array](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0189-rotate-array) |
 ## Prefix Sum
 |  |
