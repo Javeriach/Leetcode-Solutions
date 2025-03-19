@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0136-single-number) |
 | [0189-rotate-array](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0189-rotate-array) |
 | [0238-product-of-array-except-self](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0238-product-of-array-except-self) |
+| [0268-missing-number](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0268-missing-number) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0485-max-consecutive-ones](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0485-max-consecutive-ones) |
 | [0560-subarray-sum-equals-k](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0268-missing-number](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0268-missing-number) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0387-first-unique-character-in-a-string](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0387-first-unique-character-in-a-string) |
 | [0560-subarray-sum-equals-k](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
@@ -74,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0050-powx-n) |
 | [0189-rotate-array](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0231-power-of-two) |
+| [0268-missing-number](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0268-missing-number) |
 | [0326-power-of-three](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0342-power-of-four) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
@@ -106,12 +109,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0136-single-number](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0136-single-number) |
 | [0231-power-of-two](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0231-power-of-two) |
+| [0268-missing-number](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0268-missing-number) |
 | [0342-power-of-four](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0342-power-of-four) |
 ## Sorting
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0056-merge-intervals) |
+| [0268-missing-number](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0268-missing-number) |
 ## Two Pointers
 |  |
 | ------- |
@@ -136,4 +141,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0022-generate-parentheses) |
+## Binary Search
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
