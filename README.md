@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
 | [1019-squares-of-a-sorted-array](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1019-squares-of-a-sorted-array) |
 | [1603-running-sum-of-1d-array](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1603-running-sum-of-1d-array) |
+| [1635-number-of-good-pairs](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1635-number-of-good-pairs) |
 | [1833-find-the-highest-altitude](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1833-find-the-highest-altitude) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2058-concatenation-of-array](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2058-concatenation-of-array) |
@@ -47,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0387-first-unique-character-in-a-string](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0387-first-unique-character-in-a-string) |
 | [0560-subarray-sum-equals-k](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
+| [1635-number-of-good-pairs](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1635-number-of-good-pairs) |
 ## String
 |  |
 | ------- |
@@ -63,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0387-first-unique-character-in-a-string) |
+| [1635-number-of-good-pairs](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1635-number-of-good-pairs) |
 ## Greedy
 |  |
 | ------- |
@@ -95,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0342-power-of-four](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0342-power-of-four) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [1013-fibonacci-number](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1013-fibonacci-number) |
+| [1635-number-of-good-pairs](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1635-number-of-good-pairs) |
 ## Dynamic Programming
 |  |
 | ------- |
