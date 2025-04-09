@@ -17,9 +17,9 @@ public:
         int secondNumber = target - nums[i];
         if(map.find(secondNumber) != map.end() )
         {
-            if(map.find(secondNumber)->second == i) continue;
+            if(map[secondNumber] == i) continue;
             result.push_back(i);
-            result.push_back(map.find(secondNumber)->second);
+            result.push_back(map[secondNumber]);
            
             return result;
         }
