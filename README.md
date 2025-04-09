@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0649-dota2-senate](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0649-dota2-senate) |
 | [0782-jewels-and-stones](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0782-jewels-and-stones) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
+| [1894-merge-strings-alternately](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1894-merge-strings-alternately) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2137-final-value-of-variable-after-performing-operations) |
 ## Counting
 |  |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0283-move-zeroes) |
 | [1019-squares-of-a-sorted-array](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1019-squares-of-a-sorted-array) |
+| [1894-merge-strings-alternately](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1894-merge-strings-alternately) |
 ## Prefix Sum
 |  |
 | ------- |
