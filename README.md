@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0387-first-unique-character-in-a-string](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0387-first-unique-character-in-a-string) |
 | [0560-subarray-sum-equals-k](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
+| [0782-jewels-and-stones](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0782-jewels-and-stones) |
 | [1635-number-of-good-pairs](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1635-number-of-good-pairs) |
 ## String
 |  |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0022-generate-parentheses) |
 | [0387-first-unique-character-in-a-string](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0387-first-unique-character-in-a-string) |
 | [0649-dota2-senate](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0649-dota2-senate) |
+| [0782-jewels-and-stones](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0782-jewels-and-stones) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2137-final-value-of-variable-after-performing-operations) |
 ## Counting
