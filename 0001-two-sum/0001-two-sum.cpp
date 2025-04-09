@@ -4,12 +4,11 @@ public:
 
     
     unordered_map<int, int> map;
-    vector<int> result;
 
     for (int i = 0; i < nums.size();i++)
     {
         map.insert({nums[i], i});
-        cout << nums[i] << " " << i <<endl;
+       
     }
 
     for (int i = 0; i < nums.size();i++)
@@ -18,10 +17,7 @@ public:
         if(map.find(secondNumber) != map.end() )
         {
             if(map[secondNumber] == i) continue;
-            result.push_back(i);
-            result.push_back(map[secondNumber]);
-           
-            return result;
+            return {i,map[secondNumber]};
         }
     }
 
