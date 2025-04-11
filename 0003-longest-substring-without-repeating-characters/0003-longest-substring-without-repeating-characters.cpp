@@ -6,23 +6,38 @@ using namespace std;
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        map<char, int> charHashMap; // Map to store the last index of each character
+        if(s.length() == 1) return 1;
+        map<char, int> subStrMap; // Map to store the last index of each character
         int maxLength = 0;         // To track the maximum length
-        int start = 0;             // The start index of the current substring
+        int start=0;
+        int end=0;
 
-        for (int i = 0; i < s.length(); i++) {
-            // If the character is already in the map and its last occurrence is within the current substring
-            if (charHashMap.find(s[i]) != charHashMap.end() && charHashMap[s[i]] >= start) {
-                start = charHashMap[s[i]] + 1; // Move the start to one past the last occurrence
+        while(start < s.length()  && end < s.length())
+        {
+            if(subStrMap.find(s[end]) == subStrMap.end())
+            {
+                
+                subStrMap.insert({s[end],end});
+                cout << s[end] <<endl;
+                end++;
             }
-
-            // Update the character's latest index
-            charHashMap[s[i]] = i;
-
-            // Update the maximum length
-            maxLength = max(maxLength, i - start + 1);
+            else
+            {
+                int size=subStrMap.size();
+                maxLength=max(maxLength,size);
+               
+                cout << subStrMap.size() << "  0" <<endl;
+                 subStrMap.erase(s[start]);
+                cout << s[start]<<endl;
+                cout << subStrMap.size()<< "  0" <<endl;
+                start++;
+               
+            }
+            
         }
 
-        return maxLength;
+        int size=subStrMap.size();
+        cout << size <<endl;
+        return maxLength=max(size,maxLength);
     }
 };
