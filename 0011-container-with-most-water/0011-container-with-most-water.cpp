@@ -8,9 +8,8 @@ public:
 
         while(left < right)
         {
-           int area = min(height[left],height[right]) * (right- left);
-            maxArea=max(maxArea,area);
-            cout << area <<endl;
+            maxArea=max(maxArea,min(height[left],height[right]) * (right- left));
+            
             if(height[left] > height[right])
             {
                 right--;
