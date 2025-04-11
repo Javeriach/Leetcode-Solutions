@@ -1,44 +1,49 @@
 class Solution {
 public:
-
-
-      string findPalindrome(int left,int right,string s,string longestStr)
-        {
-            //left =0 ,right = 2
-            if(left>right) return "";
-
-            if(right == 0 ) {
-                string temp;
-                temp=s[0];
-            //    cout << temp <<endl;
-                return temp;
-                 };
-         
-            while(left>=0 && right < s.length() && s.at(left) == s.at(right))
-            {
-                if(s.substr(left,right - left +1).length() > longestStr.length())
-                {
-                    longestStr=s.substr(left,right - left +1);
-                }
-                left--;
-                right++;
-            }
-            return longestStr;
-        }
-        
-
     string longestPalindrome(string s) {
-
-       string longestStr="";
+        int low=0;
+        int high=0;
+        string LPS="";
 
         if(s.length() == 1) return s;
-       for(int i=0; i<s.length();i++)
-       {
-           longestStr=findPalindrome(i-1,i,s,longestStr);
-           longestStr=findPalindrome(i-1,i+1,s,longestStr);
-         
-       }
 
-        return longestStr;
+        for(int i=1; i<s.length();i++)
+        {
+
+            //Even Length String 
+            low=i;
+            high=i;
+            
+            while(s[low] == s[high])
+            {
+                low--;
+                high++;
+                if(low == -1 || high == s.length()) break;
+            } 
+
+            //now we will fetch the palindrome by low and high points;
+            cout << low+1 << " " << high <<endl;
+            string palindrome= s.substr(low+1,(high-low-1));
+            cout << palindrome <<endl;
+           if(palindrome.length() > LPS.length()) LPS=palindrome;
+
+
+            //for even length
+            low=i-1;
+            high=i;
+
+            while(s[low] == s[high])
+            {
+                low--;
+                high++;
+
+                if(low == -1 || high == s.length()) break;
+            }
+
+            string palindromee=s.substr(low+1,(high-low-1));
+            if(palindromee.length() > LPS.length()) LPS=palindromee;
+        }
+
+        return LPS;
     }
 };
