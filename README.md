@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0001-two-sum) |
+| [0011-container-with-most-water](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0056-merge-intervals](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0056-merge-intervals) |
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0011-container-with-most-water) |
 | [0649-dota2-senate](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0649-dota2-senate) |
 ## Design
 |  |
@@ -156,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0005-longest-palindromic-substring) |
+| [0011-container-with-most-water](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0160-intersection-of-two-linked-lists) |
