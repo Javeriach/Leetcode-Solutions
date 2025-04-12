@@ -2,21 +2,28 @@ class Solution {
 public:
     
     int removeDuplicates(vector<int>& nums) {
-        unordered_map<int,int>map;
-        
-        int j=0;
+       
+        set<int>result;
+
         for(int i=0; i<nums.size();i++)
         {
-            if(map.find(nums[i]) == map.end())
-            {
-                map[nums[i]]=nums[i];
-                nums[j]=nums[i];
-                j++;
-            }
+             result.insert(nums[i]);
         }
-        
-        
-    return map.size();
+
+        int i=0;
+        for(auto it:result)
+        {
+             nums[i]=it;
+             i++;
+        }
+
+        while(i<nums.size())
+        {
+             nums[i]=0;
+             i++;
+        }
+
+    return  result.size();
 
     }
 };
