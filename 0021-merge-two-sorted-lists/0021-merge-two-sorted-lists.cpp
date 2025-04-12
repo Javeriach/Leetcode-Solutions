@@ -10,72 +10,61 @@
  */
 class Solution {
 public:
-    ListNode* merge(ListNode* resultList, ListNode* list1Node,
-                    ListNode* list2Node, ListNode* currentResultListNode) {
-
-        if (resultList == nullptr) {
-            if (list1Node->val < list2Node->val) {
-                currentResultListNode = list1Node;
-                resultList = currentResultListNode;
-                merge(resultList, list1Node->next, list2Node,
-                      currentResultListNode);
-            } else {
-                cout <<"case3 " <<list1Node->val << " "<< list2Node->val <<endl;
-                currentResultListNode = list2Node;
-                resultList = currentResultListNode;
-                merge(resultList, list1Node, list2Node->next,
-                      currentResultListNode);
-            }
-        }else if (list1Node != nullptr && list2Node == nullptr) {
-            currentResultListNode->next = list1Node;
-            currentResultListNode=currentResultListNode->next;
-            merge(resultList, list1Node->next, list2Node,
-                  currentResultListNode);
-
-        }else if (list1Node == nullptr && list2Node != nullptr) {
-            currentResultListNode->next = list2Node;
-            currentResultListNode=currentResultListNode->next;
-            merge(resultList, list1Node, list2Node->next,
-                  currentResultListNode);
-
-        }
-        else if (list1Node == nullptr && list2Node == nullptr) {
-            return resultList;
-
-        }
-        else if ((list1Node->val) < (list2Node->val)) {
-            currentResultListNode->next = list1Node;
-            currentResultListNode=currentResultListNode->next;
-            merge(resultList, list1Node->next, list2Node,
-                  currentResultListNode);
-        }
-         else {
-            currentResultListNode->next = list2Node;
-            currentResultListNode=currentResultListNode->next;
-            merge(resultList, list1Node, list2Node->next,
-                  currentResultListNode);
-        }
-
-        return resultList;
-    }
 
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-        ListNode* list1Node = list1;
-        ListNode* list2Node = list2;
-        ListNode* resultList = nullptr;
-        ListNode* currentResultNode = nullptr;
-        if (list1Node == nullptr && list2Node == nullptr) {
-            return list1;
+
+        ListNode* resultHeader=nullptr;
+        ListNode * result=nullptr;
+       
+        if(list1 == nullptr && list2 == nullptr) return nullptr;
+        if(list1 == nullptr) return list2;
+        if(list2 == nullptr) return list1;
+
+        ListNode* list1Node=list1;
+        ListNode* list2Node=list2;
+
+        while(list1Node != nullptr && list2Node != nullptr)
+        {
+           
+            if( list1Node->val < list2Node->val ){
+                 if(result == nullptr){ 
+                    resultHeader=list1Node;
+                    result=resultHeader;
+                    }
+                 else {
+                    result->next=list1Node;
+                    result=result->next;
+                    }
+                 list1Node=list1Node->next;
+                 cout << result->val <<endl;
+            }else 
+             {
+                 if(result == nullptr) {resultHeader=list2Node;
+                    result=resultHeader;}
+                 else {result->next=list2Node;
+                 result=result->next;}
+                 list2Node=list2Node->next;
+                 cout << result->val <<endl;
+            }
         }
 
-        if (list1Node == nullptr && list2Node != nullptr) {
-            return list2;
+        while(list1Node != nullptr)
+        {
+             
+             result->next=list1Node;
+             result=result->next;
+            list1Node=list1Node->next;
+           
         }
 
-        if (list1Node != nullptr && list2Node == nullptr) {
-            return list1;
+        while(list2Node != nullptr)
+        {
+             result->next=list2Node;
+             result=result->next;
+            list2Node=list2Node->next;
+           
         }
 
-        return merge(resultList, list1Node, list2Node, currentResultNode);
+        return resultHeader;
     }
 };
