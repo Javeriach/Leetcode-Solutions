@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0005-longest-palindromic-substring) |
 | [0012-integer-to-roman](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0013-roman-to-integer) |
+| [0020-valid-parentheses](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0049-group-anagrams) |
 | [0387-first-unique-character-in-a-string](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0387-first-unique-character-in-a-string) |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0020-valid-parentheses) |
 | [0225-implement-stack-using-queues](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0225-implement-stack-using-queues) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
