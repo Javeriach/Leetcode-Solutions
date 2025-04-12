@@ -3,21 +3,46 @@ public:
     //we will use back tracking
     vector<string> generateParenthesis(int n) {
          
-        vector<string>outputArray;
- backtrack(outputArray,"",0,0,n);
-      return outputArray;
+        set<string>outputArray;
+        backtracking(outputArray,"",0,0,n);
+        vector<string>output;
+
+        for(auto it:outputArray)
+        {
+            output.push_back(it);
+        }
+
+        return output;
+
+        
     }
 
-    void backtrack(vector<string>&outputArray,string cur_string,int open,int close, int max){
-    if(cur_string.length() == max*2)
+    void backtracking(set<string>&outputArray, string cur_str, int open , int close,int n)
     {
-        
-        outputArray.push_back(cur_string);
-        cur_string="";
+            // First Condition we have
+
+            if(cur_str.length() == n*2)
+            {  
+                outputArray.insert(cur_str);
+                return;
+            }
+
+            if(open < n )
+            {
+                 
+                
+                backtracking(outputArray,cur_str+"(", open+1 , close , n);
+            }
+
+            //Second Condition
+
+            if(close < open)
+            {  
+                backtracking(outputArray,cur_str+")", open , close+1 , n);
+            }
+
     }
-    if(open<max) backtrack(outputArray,cur_string+"(",open+1,close,max);
-    if(close<open) backtrack(outputArray,cur_string+")",open,close+1,max);
     
-   }
+   
 
 };
