@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2195-time-needed-to-buy-tickets](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2195-time-needed-to-buy-tickets) |
 | [2269-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2269-count-elements-with-strictly-smaller-and-greater-elements) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Javeriach/Leetcode-Solutions/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+| [3721-count-mentions-per-user](https://github.com/Javeriach/Leetcode-Solutions/tree/master/3721-count-mentions-per-user) |
 ## Queue
 |  |
 | ------- |
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2058-concatenation-of-array](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2058-concatenation-of-array) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2195-time-needed-to-buy-tickets) |
+| [3721-count-mentions-per-user](https://github.com/Javeriach/Leetcode-Solutions/tree/master/3721-count-mentions-per-user) |
 ## Hash Table
 |  |
 | ------- |
@@ -128,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1013-fibonacci-number](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1013-fibonacci-number) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1635-number-of-good-pairs](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1635-number-of-good-pairs) |
+| [3721-count-mentions-per-user](https://github.com/Javeriach/Leetcode-Solutions/tree/master/3721-count-mentions-per-user) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -175,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0268-missing-number) |
 | [1019-squares-of-a-sorted-array](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1019-squares-of-a-sorted-array) |
 | [2269-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2269-count-elements-with-strictly-smaller-and-greater-elements) |
+| [3721-count-mentions-per-user](https://github.com/Javeriach/Leetcode-Solutions/tree/master/3721-count-mentions-per-user) |
 ## Two Pointers
 |  |
 | ------- |
