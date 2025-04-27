@@ -1,77 +1,100 @@
-#include <vector>
-#include <string>
-#include <queue>
-#include <unordered_map>
-#include <algorithm>
-#include <sstream>
-
-using namespace std;
-
 class Solution {
 public:
-    int parse_id(const string& content) {
-        return stoi(content.substr(2));
-    }
-
     vector<int> countMentions(int numberOfUsers, vector<vector<string>>& events) {
-        sort(events.begin(), events.end(), [](const vector<string>& a, const vector<string>& b) {
-            if (stoi(a[1]) == stoi(b[1])) 
-                return a[2] < b[2];
-            return stoi(a[1]) < stoi(b[1]);
+        
+        //0------sort karo sub ko
+        sort(events.begin(),events.end(),[](const vector<string>a , const vector<string>b)
+        {
+            if(stoi(a[1]) == stoi(b[1]))
+            return a[2] < b[2]; //return offlin message
+            return stoi(a[1]) < stoi(b[1]);//small time ,,grater time
+
         });
 
-        unordered_map<int, bool> online;
-        unordered_map<int, int> mentions;
-        queue<pair<int, int>> offline_queue;
+        //   1--hum ya bar bar dekhna hy ky kesi user ka time pura ho gaya  howa hy kay nai or us ko onlin eka time ho gaya hy ky nai
+        //   2--OFFLINE ---matlb us user ko offline ho karden hy
+        //   3--HERE , ALL,USERIDS  --- sirf in ko mention karna hy matlb sirf in ko mention karna hy..addtion of 1
 
-        for (int i = 0; i < numberOfUsers; ++i) {
-            online[i] = true;
-            mentions[i] = 0;
+        //------unordered_map<id,online  ya offline>
+        unordered_map<int,bool>online;
+
+        //-----unordered_map<id,timestamp >
+        queue<pair<int,int>>offline;
+        unordered_map<int,int>mentions;
+
+        //sub  ko sub sy pehly online kiya or number o fmentions ko zero  kar liya
+        for(int i=0; i<numberOfUsers;i++)
+        {
+            offline.push({i,true});
+            mentions.insert({i,0});
         }
 
-        for (auto& event : events) {
-            string message_type = event[0];
-            int timestamp = stoi(event[1]);
-            string content = event[2];
+        for(auto &event:events)
+        {
+           
+            string action=event[0];
+            int timestamp=stoi(event[1]);
+            string content=event[2];
 
-            while (!offline_queue.empty() && offline_queue.front().first <= timestamp) {
-                online[offline_queue.front().second] = true;
-                offline_queue.pop();
+           cout << event[1]<<endl;
+            //ab code likho ky sub ko automatially online karo //online lay aee
+            while(!offline.empty() && offline.front().second <= timestamp)
+            {
+                    online[offline.front().first]=true;
+                    
+                    offline.pop();
             }
 
-            if (message_type == "OFFLINE") {
-                int user_id = stoi(content);
-                online[user_id] = false;
-                offline_queue.push({timestamp + 60, user_id});
-            } 
-            else {
-                if (content == "ALL") {
-                    for (auto& p : mentions) {
-                        p.second++;
-                    }
-                } 
-                else if (content == "HERE") {
-                    for (auto& p : online) {
-                        if (p.second) { // if user is online
-                            mentions[p.first]++;
+            if(action == "OFFLINE")
+            {
+                
+                        int id=stoi(event[2]);
+                        
+                        online[id]=false;
+                        offline.push({id,timestamp+60});
+            }
+            else
+            {
+                        if(content == "HERE")
+                        {
+                                for(int i=0; i<mentions.size();i++)
+                                {
+                                    
+                                    if(online[i])
+                                    {
+                                        mentions[i]++;
+                                    }
+                                }
+
+                        }else if(content == "ALL")
+                        {
+                                for(int i=0; i<mentions.size();i++)
+                                {
+                                    mentions[i]++;
+                                }
+                        }else
+                        {
+                            stringstream ss(content);
+                            string id;
+                            while(ss>>id)
+                            {
+                                id=id.substr(2);
+                            
+                                int user_id=stoi(id);
+                                mentions[user_id]++;
+                            }
                         }
-                    }
-                } 
-                else {
-                    stringstream ss(content);
-                    string id;
-                    while (ss >> id) {
-                        int user_id = parse_id(id);
-                        mentions[user_id]++;
-                    }
-                }
             }
+
         }
 
-        vector<int> result;
-        for (int i = 0; i < numberOfUsers; ++i) {
+        vector<int>result;
+        for(int i=0; i<mentions.size();i++)
+        {
             result.push_back(mentions[i]);
         }
+
         return result;
+
     }
 };
