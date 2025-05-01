@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1013-fibonacci-number](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1013-fibonacci-number) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1635-number-of-good-pairs](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1635-number-of-good-pairs) |
+| [2608-count-the-digits-that-divide-a-number](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2608-count-the-digits-that-divide-a-number) |
 | [3721-count-mentions-per-user](https://github.com/Javeriach/Leetcode-Solutions/tree/master/3721-count-mentions-per-user) |
 ## Dynamic Programming
 |  |
