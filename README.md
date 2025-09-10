@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1833-find-the-highest-altitude](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1833-find-the-highest-altitude) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2058-concatenation-of-array](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2058-concatenation-of-array) |
+| [2106-find-greatest-common-divisor-of-array](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2106-find-greatest-common-divisor-of-array) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2195-time-needed-to-buy-tickets) |
 | [2269-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2269-count-elements-with-strictly-smaller-and-greater-elements) |
@@ -133,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1013-fibonacci-number](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1013-fibonacci-number) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1635-number-of-good-pairs](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1635-number-of-good-pairs) |
+| [2106-find-greatest-common-divisor-of-array](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2106-find-greatest-common-divisor-of-array) |
 | [2608-count-the-digits-that-divide-a-number](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2608-count-the-digits-that-divide-a-number) |
 | [3721-count-mentions-per-user](https://github.com/Javeriach/Leetcode-Solutions/tree/master/3721-count-mentions-per-user) |
 ## Dynamic Programming
@@ -265,4 +267,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Javeriach/Leetcode-Solutions/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+## Number Theory
+|  |
+| ------- |
+| [2106-find-greatest-common-divisor-of-array](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2106-find-greatest-common-divisor-of-array) |
 <!---LeetCode Topics End-->
