@@ -11,27 +11,33 @@
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
-    
-       if(head == nullptr) return nullptr;
-       if(head != nullptr && head->next == nullptr) return head;
-       ListNode * pre=head;
-       ListNode * cur=head->next;
+        map<int,int>storeRoom;
+        ListNode* result=nullptr;
+        ListNode* resultIterator=nullptr;
+        ListNode * cur=head;
 
-       while(cur != nullptr && pre != nullptr)
-       {
-             if(cur->val == pre->val)
-             {
-                pre->next=cur->next;
-                cur=cur->next;
-             }
-             else
-             {
-                pre=cur;
-                cur=cur->next;
-             }
-       }
-       
-        return head;
 
+        while(cur != nullptr)
+        {
+            if(storeRoom.find(cur->val) != storeRoom.end())
+            cur=cur->next;
+            else
+            {
+                storeRoom[cur->val]=cur->val;
+
+                if(cur == head)
+                {
+                    result= new ListNode (cur->val,nullptr);
+                resultIterator=result;
+                }else
+                {
+                    resultIterator->next=new ListNode  (cur->val,nullptr);
+                    resultIterator=resultIterator->next;
+                }
+
+            }
+        }
+
+    return result;
     }
 };
