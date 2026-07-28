@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0485-max-consecutive-ones](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0485-max-consecutive-ones) |
 | [0560-subarray-sum-equals-k](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
+| [0705-design-hashset](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0705-design-hashset) |
 | [1019-squares-of-a-sorted-array](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1019-squares-of-a-sorted-array) |
 | [1580-shuffle-the-array](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1580-shuffle-the-array) |
 | [1603-running-sum-of-1d-array](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1603-running-sum-of-1d-array) |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0387-first-unique-character-in-a-string](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0387-first-unique-character-in-a-string) |
 | [0560-subarray-sum-equals-k](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
+| [0705-design-hashset](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0705-design-hashset) |
 | [0782-jewels-and-stones](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0782-jewels-and-stones) |
 | [1635-number-of-good-pairs](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1635-number-of-good-pairs) |
 ## String
@@ -103,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0225-implement-stack-using-queues) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
+| [0705-design-hashset](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0705-design-hashset) |
 | [0969-number-of-recent-calls](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0969-number-of-recent-calls) |
 ## Data Stream
 |  |
@@ -169,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0083-remove-duplicates-from-sorted-list](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0206-reverse-linked-list) |
+| [0705-design-hashset](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0705-design-hashset) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
@@ -269,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Function
 |  |
 | ------- |
+| [0705-design-hashset](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0705-design-hashset) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Javeriach/Leetcode-Solutions/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Number Theory
 |  |
