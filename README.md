@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0844-backspace-string-compare](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0844-backspace-string-compare) |
 | [2058-concatenation-of-array](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2058-concatenation-of-array) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2195-time-needed-to-buy-tickets) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0387-first-unique-character-in-a-string) |
 | [0649-dota2-senate](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0649-dota2-senate) |
 | [0782-jewels-and-stones](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0782-jewels-and-stones) |
+| [0844-backspace-string-compare](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0844-backspace-string-compare) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1894-merge-strings-alternately](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1894-merge-strings-alternately) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2137-final-value-of-variable-after-performing-operations) |
@@ -118,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0020-valid-parentheses) |
 | [0225-implement-stack-using-queues](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0225-implement-stack-using-queues) |
+| [0844-backspace-string-compare](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0844-backspace-string-compare) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
@@ -206,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0160-intersection-of-two-linked-lists) |
 | [0189-rotate-array](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0283-move-zeroes) |
+| [0844-backspace-string-compare](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0844-backspace-string-compare) |
 | [1019-squares-of-a-sorted-array](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1019-squares-of-a-sorted-array) |
 | [1894-merge-strings-alternately](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1894-merge-strings-alternately) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
