@@ -1,30 +1,47 @@
 class Solution {
 public:
     bool isValid(string s) {
+        
+        stack <char> p_stack;
+        int i=0;
 
-        stack<char>stk;
-        if(s.length() == 1) return false;
-
-        for(int i=0;i<s.length();i++)
+        
+        while( i < s.length())
         {
-
-            if( (s[i] == '(') || (s[i] == '{') || (s[i] == '[' ) )
-           { 
-            stk.push(s[i]);
-            cout << stk.top() <<endl;
-            continue;
+            if(s[i] == ')' )
+            {
+                if(p_stack.empty()) return false;
+                else if ( p_stack.top() == '(' ) 
+                p_stack.pop();
+                else return false;
             }
+            else  if(s[i] == '}' )
+            {
+                if(p_stack.empty()) return false;
+                else if ( p_stack.top() == '{' ) 
+                p_stack.pop();
+                else return false;
+            }
+           
+            else if(s[i] == ']' )
+            {
+                if(p_stack.empty()) return false;
+                else if ( p_stack.top() == '[' ) 
+                p_stack.pop();
+                else return false;
+            }
+           
+            else if(s[i] == '(' || s[i] == '{' || s[i] == '[')
+            {
+                p_stack.push(s[i]);
+            }
+            
+            cout << "hi" << endl;
 
-            if(stk.size() ==  0) return false;;
-            if(stk.top() == '(' && s[i] == ')' ) stk.pop();
-            else if(stk.top() == '['  && s[i] == ']') stk.pop();
-            else if(stk.top() == '{' && s[i] == '}') stk.pop();
-            else return false;
-
+            i++;
         }
 
-        if(stk.size() == 0) return true;
-        else return false;
-
+        cout << p_stack.size() << endl;
+        return p_stack.size() == 0;
     }
 };
