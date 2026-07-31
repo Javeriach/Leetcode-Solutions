@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0782-jewels-and-stones](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0782-jewels-and-stones) |
 | [0844-backspace-string-compare](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0844-backspace-string-compare) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
+| [1544-make-the-string-great](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1544-make-the-string-great) |
 | [1894-merge-strings-alternately](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1894-merge-strings-alternately) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Javeriach/Leetcode-Solutions/tree/master/3309-count-prefix-and-suffix-pairs-i) |
@@ -122,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0225-implement-stack-using-queues) |
 | [0844-backspace-string-compare](https://github.com/Javeriach/Leetcode-Solutions/tree/master/0844-backspace-string-compare) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
+| [1544-make-the-string-great](https://github.com/Javeriach/Leetcode-Solutions/tree/master/1544-make-the-string-great) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Javeriach/Leetcode-Solutions/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## Math
