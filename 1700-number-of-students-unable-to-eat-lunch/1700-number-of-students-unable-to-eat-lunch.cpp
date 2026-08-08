@@ -1,27 +1,21 @@
 class Solution {
 public:
     int countStudents(vector<int>& students, vector<int>& sandwiches) {
-            unordered_map<int,int> storeRoom;
-            int notEat=0;
-
+            unordered_map<int,int>str;
             for(int i=0; i<students.size();i++)
             {
-                storeRoom[students[i]]+=1;
+                str[students[i]]+=1;
             }
-            
-            int k=0;
-            while(k < sandwiches.size())
+
+            for(int i=0; i<sandwiches.size();i++)
             {
-                if(storeRoom[sandwiches[k]] > 0)
-                {
-                    storeRoom[sandwiches[k]]-=1;
-                }else
-                return storeRoom[0] + storeRoom[1];
-
-             k++;
+        
+                if(str[sandwiches[i]] > 0)
+                str[sandwiches[i]]-=1;
+                else return str[0] + str[1];
 
             }
 
-            return storeRoom[0] + storeRoom[1];
+            return str[0] + str[1];
     }
 };
